@@ -9,18 +9,18 @@ El código de automatización fue implementado con Cypress y utiliza Node.js y n
 ## 2. Funcionalidades bajo prueba
 Aquí se documentan las principales funcionalidades de la aplicación que han sido cubiertas por las pruebas de automatización:
 
-### Inicio de sesión (Login): Validaciones para acceso de usuarios con credenciales válidas y manejo de errores para credenciales inválidas o usuarios no verificados.
+* Inicio de sesión (Login): Validaciones para acceso de usuarios con credenciales válidas y manejo de errores para credenciales inválidas o usuarios no verificados.
 
-### Restablecimiento de contraseña: Verificación del flujo completo de recuperación de contraseña, incluyendo el envío de correo de confirmación y el cambio de contraseña.
+* Restablecimiento de contraseña: Verificación del flujo completo de recuperación de contraseña, incluyendo el envío de correo de confirmación y el cambio de contraseña.
 
 ## 3. Tipos de usuario
 Las pruebas fueron diseñadas para validar el comportamiento del sistema desde la perspectiva de tres roles principales:
 
-### Super Administrador: Gestor del sistema con acceso total.
+* Super Administrador: Gestor del sistema con acceso total.
 
-### Usuario Cliente: Usuario común que consume contenido y compra entradas.
+* Usuario Cliente: Usuario común que consume contenido y compra entradas.
 
-### Usuario Creador de Eventos: Usuario que crea y gestiona eventos para su publicación.
+* Usuario Creador de Eventos: Usuario que crea y gestiona eventos para su publicación.
 
 ## 4. Requisitos y configuración
 Para poder ejecutar estas pruebas, es necesario tener instalado lo siguiente:
