@@ -20,14 +20,14 @@ npm install
 Verifica que solo los usuarios con credenciales válidas y verificadas puedan acceder al sistema, bloqueando cualquier intento de acceso indebido.
 
 * Flujo principal:
-CP001: Inicio de sesión exitoso con usuario y contraseña correctos. El sistema redirige a la URL principal, confirma el acceso y cierra sesión.
+  CP001: Inicio de sesión exitoso con usuario y contraseña correctos. El sistema redirige a la URL principal, confirma el acceso y cierra sesión.
 
 * Casos alternativos:
-CP002: Usuario no verificado.
+  CP002: Usuario no verificado.
 
-CP003, CP004, CP006: Datos de email o contraseña incorrectos.
+  CP003, CP004, CP006: Datos de email o contraseña incorrectos.
 
-CP005, CP007, CP008: Campos de email o contraseña vacíos.
+  CP005, CP007, CP008: Campos de email o contraseña vacíos.
 
 * Test exploratorio: Usuario no verificado + contraseña vacía.
 
@@ -39,13 +39,13 @@ CP001 - CP004: Restablecimiento de contraseña exitoso de extremo a extremo (nav
 
 * Casos alternativos:
 
-CP005 - CP007: Emails inválidos, inexistentes o no verificados.
+  CP005 - CP007: Emails inválidos, inexistentes o no verificados.
 
-CP009: Intento de usar una contraseña nueva inválida.
+  CP009: Intento de usar una contraseña nueva inválida.
 
-CP010: Contraseña nueva y confirmación no coinciden.
+  CP010: Contraseña nueva y confirmación no coinciden.
 
-Consideraciones sobre la verificación por correo
+#### Consideraciones sobre la verificación por correo
 
 Para validar la recepción del correo de restablecimiento de contraseña, fue necesario utilizar una cuenta real de Gmail configurada con verificación en dos pasos y una contraseña de aplicación.
 Esto permitió que Cypress pudiera conectarse directamente a la bandeja de entrada mediante IMAP y leer el mensaje de restablecimiento enviado por el sistema bajo prueba.
