@@ -1,6 +1,6 @@
 # Pruebas automatizadas con Cypress
 ## 1. Visión general del proyecto
-Esta suite de pruebas automatizadas fue diseñada en el marco de desarrollo del programa XAcademy Automaion para verificar dos funcionalidades críticas de la aplicación Tiketazo: el flujo de inicio de sesión (Login) y el flujo de restablecimiento de contraseña. El objetivo principal es asegurar la correcta gestión de usuarios y la seguridad del acceso.
+Esta suite de pruebas automatizadas fue diseñada en el marco de desarrollo del programa XAcademy Automation para verificar dos funcionalidades críticas de la aplicación Tiketazo: el flujo de inicio de sesión (Login) y el flujo de restablecimiento de contraseña. El objetivo principal es asegurar la correcta gestión de usuarios y la seguridad del acceso.
 
 El código de automatización se implementó con Cypress y se utilizó ChatGPT-5 como herramienta de apoyo para la generación y estructuración de los scripts.
 
